@@ -1,8 +1,12 @@
 git init
 git clone "filename"
-git branch
+git branch                         - to see your current branch
 git reset --HARD ^HEAD
 git reset --SOFT
-git pull
-git commit -m "msg"
-git push origin <branch>
+git pull                           - always pull current changes before any commit 
+git add <filename>                 - add the files which you want to commit
+git commit -m "msg"                - commit command with commit message
+git push origin <branch>           - push your changes to desired branch
+git branch -d <branch-name>        -  to delete a local branch 
+git branch -D <branch-name>        - to delete a remote branch
+ 
