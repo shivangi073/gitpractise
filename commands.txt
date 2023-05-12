@@ -2,8 +2,16 @@ git init
 git clone "filename"
 git branch                         - to see your current branch
 git checkout -b <new-branch-name>  - to create a new branch
-git merge <branch-name>            - method 1 -  git merge = always checkout to master/develop branch to merge your feature branch  
-                                     method 2 - raise pull request 
+
+======
+
+how to merge changes 
+- method 1 -  git merge = always checkout to main-branch[master/develop] branch to merge your feature branch 
+    git merge <branch-name>   
+    git push origin <main-branch>         
+method 2 - raise pull request 
+
+==========
 
 git reset --HARD ^HEAD
 git reset --SOFT
