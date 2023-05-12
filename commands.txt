@@ -1,0 +1,8 @@
+git init
+git clone "filename"
+git branch
+git reset --HARD ^HEAD
+git reset --SOFT
+git pull
+git commit -m "msg"
+git push origin <branch>
