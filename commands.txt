@@ -12,8 +12,9 @@ how to merge changes
 method 2 - raise pull request 
 
 ==========
-
-git reset --HARD ^HEAD
+git log                             - to see commit logs 
+git log -n                          - to see log of last n commits 
+git reset --HARD ^HEAD            
 git reset --SOFT
 git pull                           - always pull current changes before any commit 
 git add <filename>                 - add the files which you want to commit
