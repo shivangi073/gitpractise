@@ -2,6 +2,8 @@ git init
 git clone "filename"
 git branch                         - to see your current branch
 git checkout -b <new-branch-name>  - to create a new branch
+git status                         - to check codechanges 
+git diff <file-name>               - to check the difference in file 
 
 ======
 
@@ -21,5 +23,5 @@ git add <filename>                 - add the files which you want to commit
 git commit -m "msg"                - commit command with commit message
 git push origin <branch>           - push your changes to desired branch
 git branch -d <branch-name>        -  to delete a local branch 
-git branch -D <branch-name>        - to delete a remote branch
+git push origin -d <branch-name>        - to delete a remote branch
  
